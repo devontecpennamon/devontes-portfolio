@@ -56,7 +56,7 @@ console.log(textArray);
 let index = 0;
 setInterval(function () {
   greetingsText.style.display = "block";
-  if (index < textArray.length) {
+  if (index < textArray.length - 1) {
     index++;
     greetingsText.innerText = textArray[0] += textArray[index];
   }
@@ -64,8 +64,8 @@ setInterval(function () {
 
 setInterval(function () {
   developerText.classList.add("dev-animate");
-}, 2520);
+}, 3350);
 
 setInterval(function () {
   codeLinkButton.classList.add("dev-animate-button");
-}, 3000);
+}, 3700);
