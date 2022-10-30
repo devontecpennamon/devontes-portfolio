@@ -416,6 +416,7 @@ div.sticky {
 
 /* Grid Section */
 .projects-grid {
+  visibility: hidden;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr 1fr 1fr;
