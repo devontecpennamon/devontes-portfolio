@@ -348,9 +348,11 @@ div.sticky {
 }
 
 .about-section img {
+  margin: 0 auto;
   max-width: 450px;
   height: auto;
   position: relative;
+  border-radius: 50%;
 }
 
 .about-section .about-flex {
@@ -367,6 +369,12 @@ div.sticky {
 
 .about-section p {
   line-height: 28px;
+}
+
+.zakimg-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Skills Section */
@@ -1349,7 +1357,7 @@ footer img {
     padding: 0 10px 0 10px;
   }
   .about-section img {
-    max-width: 90%;
+    max-width: 75%;
   }
 }
 
